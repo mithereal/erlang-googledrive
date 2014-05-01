@@ -1,0 +1,7 @@
+{application, googledrive, [
+  {description, "Google Drive API for Erlang"},
+  {vsn, "1"},
+  {modules, [googledrive]},
+  {registered, []},
+  {applications, [kernel, stdlib, crypto, public_key, inets, ssl]}
+]}.
